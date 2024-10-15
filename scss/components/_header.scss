@@ -27,10 +27,20 @@
   gap: 24rem;
 }
 
+.nav-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.nav-item:hover .dropdown {
+  display: block;
+}
 .nav-item > a {
   font-family: var(--third-family);
   font-size: 15rem;
   color: #f8f7f7;
+  display: flex;
+  align-items: center;
 }
 
 .search {

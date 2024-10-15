@@ -104,8 +104,6 @@ body {
   min-width: 100%;
 }
 
-
-
 .swiper-pagination {
   display: flex;
   justify-content: center;
@@ -157,20 +155,16 @@ button.slick-next {
   display: none;
 }
 
-
-.burger-menu{
-cursor: pointer;
- 
-
-  
+.burger-menu {
+  cursor: pointer;
 }
 
 .burger-menu {
   display: none;
-  @include desktop-small{
+  @include desktop-small {
     display: block;
   }
-  .material-icons{
+  .material-icons {
     font-size: 32px;
     color: #fff;
   }
@@ -206,4 +200,43 @@ cursor: pointer;
   background: #fff;
   z-index: 1000;
   padding: 10px;
+}
+.product, .explore, .pricing {
+  margin-left: 15px;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(33, 33, 33);
+  padding: 10px 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 150px;
+  cursor: pointer;
+}
+.dropdown li {
+  padding: 10px 20px;
+}
+
+.dropdown li a {
+  font-family: var(--third-family);
+  font-size: 15rem;
+  color: #f8f7f7;
+}
+
+.dropdown li:hover {
+  background-color: #565656;
+}
+
+.nav-item:hover .icon-arrow {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.icon-arrow {
+  color: #f8f7f7;
+  margin-left: 5px;
+  font-size: 18px;
+  cursor: pointer;
 }
