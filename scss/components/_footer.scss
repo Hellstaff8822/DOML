@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 19rem;
+  color: #fff;
+  position: relative;
+  margin-bottom: 75rem;
+  &::after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    top: -11rem;
+    height: 1rem;
+    background: linear-gradient(219deg, #00f0ff 0%, #5200ff 48.25%, #ff2df7 100%);
+  }
+  &__container{
+    display: flex;
+  }
+
+ 
+}

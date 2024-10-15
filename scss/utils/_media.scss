@@ -1,0 +1,164 @@
+@include desktop-small {
+}
+@include tablet {
+  .header {
+    padding: 30rem;
+    background-color: rgb(33, 33, 33);
+    justify-content: flex-start;
+  }
+  .logo-media{
+    display: block;
+  }
+  .nav-bar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(33, 33, 33, );
+    flex-direction: column;
+    justify-content: center;
+    gap: 30rem;
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+    &.active {
+      transform: translateY(0);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  .logo {
+    position: fixed;
+    top: 20rem;
+    left: 20rem;
+    display: none;
+  }
+  .nav-list {
+    flex-direction: column;
+    gap: 50rem;
+  }
+
+  .search {
+    flex-direction: column;
+  }
+  .icon-menu {
+    color: #fff;
+    position: absolute;
+    top: 30rem;
+    right: 46rem;
+    display: block;
+    z-index: 1001;
+    font-size: 35rem;
+  }
+  .welcome {
+    flex-direction: column-reverse;
+    &__info {
+      text-align: center;
+    }
+  }
+  .optimaize {
+    &__up {
+      flex-direction: column-reverse;
+      gap: 40rem;
+    }
+    &__info {
+      text-align: center;
+    }
+    &__down {
+      flex-direction: column;
+      gap: 40rem;
+    }
+  }
+  // .staff {
+  //   &__item {
+  //     flex-direction: column;
+  //     align-items: center;
+  //   }
+  //   &__about {
+  //     text-align: center;
+  //     word-wrap: break-word;
+  //   }
+  // }
+  .staff__item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    padding: 50rem 20rem;
+    min-height: 613px;
+  }
+
+  .staff__about {
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 38rem;
+    margin-top: 43rem;
+  }
+
+  .staff__text {
+    margin-bottom: 53rem;
+  }
+
+  .staff__name {
+    margin-bottom: 0;
+  }
+
+  .staff__position {
+    margin-bottom: 0;
+  }
+
+  .staff {
+    margin-bottom: 50px;
+  }
+  .custom-swiper-button-prev {
+    right: 80%;
+  }
+
+  .custom-swiper-button-next {
+    left: 80%;
+  }
+
+  .reach {
+    position: relative;
+    min-height: 613px;
+    flex-direction: column;
+    padding: 115px 50px;
+    &__image {
+      position: absolute;
+      top: -90px;
+      width: 88%;
+    }
+
+    &__info {
+      margin-top: 150rem;
+
+      text-align: center;
+    }
+
+    &__title {
+      font-size: 49rem;
+    }
+  }
+
+  .input-container {
+    flex-direction: column;
+    gap: 40rem;
+    input {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .footer {
+    flex-direction: column;
+    gap: 30rem;
+  }
+  .button {
+    width: 100%;
+    align-items: center;
+  }
+}
+@include tablet-small {
+}
+@include mobile {
+}

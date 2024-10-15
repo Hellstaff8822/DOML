@@ -1,0 +1,29 @@
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 93rem;
+  gap: 97rem;
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 72rem;
+    margin-bottom: 50rem;
+  }
+
+  &__text {
+    font-size: 25rem;
+    max-width: 615px;
+    &::after {
+      margin-top: 50rem;
+      margin-bottom: 50rem;
+    }
+  }
+
+  &__image {
+    margin-bottom: 50rem;
+  }
+}

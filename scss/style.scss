@@ -1,0 +1,16 @@
+@import "vendors/reset";
+@import "utils/mixins";
+@import "utils/vars";
+@import "layout/base";
+
+@import "utils/slider";
+
+//components
+@import "components/header";
+@import "components/welcome";
+@import "components/company";
+@import "components/optimaize";
+@import "components/staff";
+@import "components/reach";
+@import "components/footer";
+@import "utils/media";

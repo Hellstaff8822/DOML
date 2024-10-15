@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./font/fonts.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Actor&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="/Image/favicon-planet.png" type="image/x-icon" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>DOML</title>
+</head>
+
+<body>
+  <header class="header">
+    <a class="logo-media" href="#"><img src="/Image/icon/logo.svg" alt="Logo" /></a>
+    <span class="material-icons icon-menu" onclick="toggleMenu()">menu</span>
+    <nav class="nav-bar" id="navList"> 
+      
+      <ul class="nav-list" >
+        <a class="logo" href="#"><img src="/Image/icon/logo.svg" alt="Logo" /></a>
+        <li class="nav-item"><a href="#">Product</a></li>
+        <li class="nav-item"><a href="#">Team</a></li>
+        <li class="nav-item"><a href="#">Enterprise</a></li>
+        <li class="nav-item"><a href="#">Enterprise</a></li>
+        <li class="nav-item"><a href="#">Marketplace</a></li>
+        <li class="nav-item"><a href="#">Pricing</a></li>
+      </ul>
+      <div class="search">
+        <div class="search__input">
+          <input type="text" placeholder="Search DOML" />
+          <img class="search__icon" src="/Image/icon/Code Icon.svg" alt="code-icon" />
+        </div>
+        <div class="search__authorization">
+          <button class="search__button">Sign in</button>
+          <button class="search__button search-second">Sign up</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    
+    <!-- Header -->
+    <!-- <header class="header">
+      <nav class="nav" id="navList">
+        <a href="/index.html" class="logo">
+          <img src="/Image/icon/logo.svg" alt="logo" />
+        </a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="/index.html" class="nav__link">Product</a>
+          </li>
+          <li class="nav__item">
+            <a href="/index.html" class="nav__link">Team</a>
+          </li>
+          <li class="nav__item">
+            <a href="/index.html" class="nav__link">Enterprise</a>
+          </li>
+          <li class="nav__item">
+            <a href="/index.html" class="nav__link">Explore</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="/index.html" class="nav__link">Marketplace</a>
+          </li>
+          <li class="nav__item">
+            <a href="/index.html" class="nav__link">Pricing</a>
+          </li>
+        </ul>
+        <div class="search">
+          <div class="search__input">
+            <input type="text" placeholder="Search DOML" />
+            <img class="search__icon" src="/Image/icon/Code Icon.svg" alt="code-icon" />
+          </div>
+          <div class="search__authorization">
+            <button class="search__button">Sign in</button>
+            <button class="search__button search-second">Sign up</button>
+          </div>
+        </div>
+        <span class="material-icons icon-menu" onclick="toggleMenu()">menu</span>
+      </nav>
+    </header> -->
+
+    <section class="welcome">
+      <div class="welcome__info">
+        <h1 class="welcome__title title">
+          <span>AI Marketing.</span> <br />Optimized Reach.
+        </h1>
+        <p class="welcome__text text">
+          Our vision is to revolutionize the way brands and advertisers
+          target, reach
+        </p>
+        <button class="welcome__button button">
+          Get Started
+          <img src="/Image/icon/akar-icons_arrow-right.svg" alt="arrow-gradient" />
+        </button>
+      </div>
+      <div class="welcome__image">
+        <img src="/Image/planet.png" alt="Planet" />
+      </div>
+    </section>
+
+    <div class="row">
+      <div class="customers-container">
+        <section class="customer-logos slider" data-arrows="true">
+          <div class="slide">
+            <img src="/Image/company/up/airtel.png" alt="airtel" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/UBA.png" alt="UBA" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/paga.png" alt="Paga" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/MTN.png" alt="MTN" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/dangote.png" alt="Dangote" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/first-bank.png" alt="First-bank" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Airbnb.png" alt="Airbnb" />
+          </div>
+        </section>
+
+        <section class="customer-logos slider" data-arrows="true">
+          <div class="slide">
+            <img src="/Image/company/up/Google cloud.png" alt="Google-cloud" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Ebay.png" alt="Ebay" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Tux.png" alt="Tux" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Spotify.png" alt="Spotify" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Airbnb.png" alt="Airbnb" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Facebook.png" alt="Facebook" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Coca Cola.png" alt="Coca-Cola" />
+          </div>
+        </section>
+        <section class="customer-logos slider">
+          <div class="slide">
+            <img src="/Image/company/up/Zoom.png" alt="Zoom" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Creative Cloud.png" alt="Creative-Cloud" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Netflix.png" alt="Netflix" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Discord.png" alt="Discord" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Figma.png" alt="Figma" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Paypal.png" alt="Paypal" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Adobe.png" alt="Adobe" />
+          </div>
+        </section>
+        <p class="company__text">
+          Trusted by the world’s most ambitious teams.
+        </p>
+      </div>
+    </div>
+
+    <!-- <section class="company">
+
+      <div class="slider">
+        <div class="slider-item company-bank">
+          <img src="/Image/company/up/airtel.png" alt="airtel" />
+          <img src="/Image/company/up/UBA.png" alt="UBA" />
+          <img src="/Image/company/up/paga.png" alt="Paga" />
+          <img src="/Image/company/up/MTN.png" alt="MTN" />
+          <img src="/Image/company/up/dangote.png" alt="Dangote" />
+          <img src="/Image/company/up/first-bank.png" alt="First-bank" />
+        </div>
+      </div>
+
+      <div class="slider">
+        <div class="slider-item company-box">
+          <img src="/Image/company/up/Google cloud.png" alt="Google-cloud" />
+          <img src="/Image/company/up/Ebay.png" alt="Ebay" />
+          <img src="/Image/company/up/Tux.png" alt="Tux" />
+          <img src="/Image/company/up/Spotify.png" alt="Spotify" />
+          <img src="/Image/company/up/Airbnb.png" alt="Airbnb" />
+          <img src="/Image/company/up/Facebook.png" alt="Facebook" />
+          <img src="/Image/company/up/Coca Cola.png" alt="Coca-Cola" />
+        </div>
+      </div>
+
+      <div class="slider">
+        <div class="slider-item company-up">
+          <img src="/Image/company/up/Zoom.png" alt="Zoom" />
+          <img src="/Image/company/up/Creative Cloud.png" alt="Creative-Cloud" />
+          <img src="/Image/company/up/Netflix.png" alt="Netflix" />
+          <img src="/Image/company/up/Discord.png" alt="Discord" />
+          <img src="/Image/company/up/Figma.png" alt="Figma" />
+          <img src="/Image/company/up/Paypal.png" alt="Paypal" />
+          <img src="/Image/company/up/Adobe.png" alt="Adobe" />
+        </div>
+        <p class="company__text">
+          Trusted by the world’s most ambitious teams.
+        </p>
+    </section> -->
+    <!-- Optimaize -->
+    <section class="optimaize">
+      <div class="optimaize__up">
+        <div class="optimaize__info">
+          <h2 class="optimaize__title title">
+            <span>AI Marketing</span> <br />Optimized Reach
+          </h2>
+          <p class="optimaize__text text">
+            DOML is a digital media agency powered by AI <br />technology
+            providing real time, <span>data-driven insights</span> <br />on
+            your business and audience. The mission of DOML<br />
+            is to create the best experiences for companies <br />through
+            intelligent insights, powerful analytics and <br /><span>strategic execution</span>.
+          </p>
+          <button class="optimaize__button button">
+            Learn more
+            <img src="/Image/icon/akar-icons_arrow-right.svg" alt="arrow-gradient" />
+          </button>
+        </div>
+        <div class="optimaize__image">
+          <img src="/Image/cube.png" alt="Cube" />
+        </div>
+      </div>
+      <div class="optimaize__down">
+        <div class="optimaize__image">
+          <img src="/Image/swirled.png" alt="swirled" />
+        </div>
+        <div class="optimaize__info">
+          <h2 class="optimaize__title title">
+            <span>AI Marketing</span> <br />Optimized Reach
+          </h2>
+          <p class="optimaize__text text">
+            It's all about getting your message in front of the right<br />audience
+            and creating those valuable <span>relationships</span>.<br />
+            Learn More about how DOML can help you do just<br />
+            that - all with a simple, easy-to-use platform.
+          </p>
+          <button class="optimaize__button button">
+            Learn more
+            <img src="/Image/icon/akar-icons_arrow-right.svg" alt="arrow-gradient" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Staff -->
+    <section class="staff">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="staff__item">
+              <div class="staff__image">
+                <img src="/Image/slider/1.png" alt="1" />
+              </div>
+              <div class="staff__about">
+                <p class="staff__text">
+                  It's all about getting your message in front of the right
+                  audience and creating those
+                  valuable relationships. Learn More about how DOML can help
+                  you do just that - all with a 
+                  simple, easy-to-use platform.
+                </p>
+                <div class="staff_info">
+                  <div class="staff__name">Amaka Micheal</div>
+                  <div class="staff__position">
+                    Media Executive, Buying & Control
+                  </div>
+                  <img src="/Image/icon/discord.png" alt="discord" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="staff__item">
+              <div class="staff__image">
+                <img src="/Image/slider/2.png" alt="2" />
+              </div>
+              <div class="staff__about">
+                <p class="staff__text">
+                  At DOML, we prioritize delivering tailored solutions that
+                  resonate with your audience. Our platform streamlines the
+                  process for maximum impact and efficiency
+                </p>
+                <div class="staff_info">
+                  <div class="staff__name">Sophia Bennett</div>
+                  <div class="staff__position">
+                    Senior Marketing Strategist
+                  </div>
+                  <img src="/Image/icon/discord.png" alt="discord" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="staff__item">
+              <div class="staff__image">
+                <img src="/Image/slider/3.png" alt="2" />
+              </div>
+              <div class="staff__about">
+                <p class="staff__text">
+                  We help brands connect with their audience in a meaningful
+                  way, fostering engagement and trust across all channels with
+                  our intuitive platform
+                </p>
+                <div class="staff_info">
+                  <div class="staff__name">Emma Turner</div>
+                  <div class="staff__position">Content Marketing Manager</div>
+                  <img src="/Image/icon/discord.png" alt="discord" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="staff__item">
+              <div class="staff__image">
+                <img src="/Image/slider/4.png" alt="2" />
+              </div>
+              <div class="staff__about">
+                <p class="staff__text">
+                  DOML empowers your team to deliver results that matter,
+                  simplifying workflows and optimizing campaigns for
+                  unparalleled performance.
+                </p>
+                <div class="staff_info">
+                  <div class="staff__name">Olivia Dawson</div>
+                  <div class="staff__position">
+                    Digital Campaign Specialist
+                  </div>
+                  <img src="/Image/icon/discord.png" alt="discord" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-gagination-container">
+          <div class="custom-swiper-button-prev">
+            <img src="/Image/icon/arrow-left.svg" alt="Previous" />
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="custom-swiper-button-next">
+            <img src="/Image/icon/arrow-right.svg" alt="Next" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Optimaize -->
+    <section class="optimaize">
+      <div class="optimaize__up">
+        <div class="optimaize__info">
+          <h2 class="optimaize__title title">
+            <span>AI Marketing</span> <br />Optimized Reach
+          </h2>
+          <p class="optimaize__text text">
+            DOML is a digital media agency powered by AI <br />technology
+            providing real time, <span>data-driven insights</span> <br />on
+            your business and audience. The mission of DOML<br />
+            is to create the best experiences for companies <br />through
+            intelligent insights, powerful analytics and <br /><span>strategic execution</span>.
+          </p>
+          <button class="optimaize__button button">
+            Learn more
+            <img src="/Image/icon/akar-icons_arrow-right.svg" alt="arrow-gradient" />
+          </button>
+        </div>
+        <div class="optimaize__image">
+          <img src="/Image/cube-two.png" alt="Cube" />
+        </div>
+      </div>
+      <div class="optimaize__down">
+        <div class="optimaize__image">
+          <img src="/Image/kappa.png" alt="Kappa" />
+        </div>
+        <div class="optimaize__info">
+          <h2 class="optimaize__title title">
+            <span>AI Marketing</span> <br />Optimized Reach
+          </h2>
+          <p class="optimaize__text text">
+            It's all about getting your message in front of the right<br />audience
+            and creating those valuable relationships.<br />
+            Learn More about how DOML can help you do just<br />
+            that - all with a simple, easy-to-use platform.
+          </p>
+          <button class="optimaize__button button">
+            Learn more
+            <img src="/Image/icon/akar-icons_arrow-right.svg" alt="arrow-gradient" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Reach -->
+    <section class="reach">
+        <img class="reach__image" src="/Image/swirled-two.png" alt="swirled" />
+        <div class="reach__info">
+          <h2 class="reach__title">
+            Get exponential reach<br />
+            via <span>AI Marketing</span>
+          </h2>
+          <form class="input-container">
+            <input type="email" placeholder="Enter your work email" />
+            <button type="submit" class="reach__button button">
+              Get in touch<img src="/Image/icon/akar-icons_arrow-right.svg" alt="arrow" />
+            </button>
+          </form>
+        </div>
+    </section>
+
+    <div class="row">
+      <div class="customers-container">
+        <section class="customer-logos slider" data-arrows="true">
+          <div class="slide">
+            <img src="/Image/company/up/Google cloud.png" alt="Google-cloud" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Ebay.png" alt="Ebay" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Tux.png" alt="Tux" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Spotify.png" alt="Spotify" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Airbnb.png" alt="Airbnb" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Facebook.png" alt="Facebook" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Coca Cola.png" alt="Coca-Cola" />
+          </div>
+        </section>
+        <section class="customer-logos slider">
+          <div class="slide">
+            <img src="/Image/company/up/Zoom.png" alt="Zoom" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Creative Cloud.png" alt="Creative-Cloud" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Netflix.png" alt="Netflix" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Discord.png" alt="Discord" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Figma.png" alt="Figma" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Paypal.png" alt="Paypal" />
+          </div>
+          <div class="slide">
+            <img src="/Image/company/up/Adobe.png" alt="Adobe" />
+          </div>
+        </section>
+        <p class="company__text">
+          Trusted by the world’s most ambitious teams.
+        </p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__copiwriting">
+        Copyright © 2022 DOML. All rights reserved.
+      </div>
+      <div class="footer__terms">Terms of Use & Privacy Policy</div>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="/script.js"></script>
+</body>
+
+</html>

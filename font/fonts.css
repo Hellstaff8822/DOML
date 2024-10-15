@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Ai Nile";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ai Nile Regular"), url("./AlNileRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Ai Nile Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Ai Nile Bold"), url("./AiNileBold.ttf") format("truetype");
+  }
+  
