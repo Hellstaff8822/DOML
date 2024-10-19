@@ -181,6 +181,9 @@
       background: none;
     }
   }
+  .nav-item:hover .dropdown {
+    width: 130rem;
+  }
 
   .search__authorization {
     flex-direction: column;

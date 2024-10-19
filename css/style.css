@@ -1162,6 +1162,9 @@ button.slick-next {
   .dropdown li:hover {
     background: none;
   }
+  .nav-item:hover .dropdown {
+    width: 130rem;
+  }
   .search__authorization {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
