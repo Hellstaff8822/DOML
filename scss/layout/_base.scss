@@ -202,9 +202,9 @@ button.slick-next {
   z-index: 1000;
   padding: 10px;
 }
-.product, .explore, .pricing {
-  margin-left: 15px;
-}
+// .product, .explore, .pricing {
+//   margin-left: 15px;
+// }
 .dropdown {
   display: none;
   position: absolute;
@@ -215,6 +215,7 @@ button.slick-next {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   width: 160rem;
   cursor: pointer;
+  
 }
 .dropdown li {
   padding: 10px 20px;

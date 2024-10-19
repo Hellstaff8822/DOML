@@ -366,10 +366,6 @@ button.slick-next {
   padding: 10px;
 }
 
-.product, .explore, .pricing {
-  margin-left: 15px;
-}
-
 .dropdown {
   display: none;
   position: absolute;
@@ -526,9 +522,9 @@ button.slick-next {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   position: relative;
 }
 
@@ -540,9 +536,24 @@ button.slick-next {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  visibility: hidden;
+  width: 200px;
+  padding: 10px;
+}
+
+.nav-item:hover .dropdown {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  visibility: visible;
 }
 
 .nav-item > a {
@@ -959,6 +970,7 @@ button.slick-next {
             transform: translateX(-100%);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    padding-left: 50rem;
   }
   .nav-bar.active {
     -webkit-transform: translateX(0);
@@ -977,6 +989,9 @@ button.slick-next {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 50rem;
   }
   .nav-item {
@@ -998,6 +1013,9 @@ button.slick-next {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .icon-menu {
     color: #fff;
@@ -1125,6 +1143,8 @@ button.slick-next {
     background: none;
     -webkit-box-shadow: none;
             box-shadow: none;
+    width: 90rem;
+    padding: 0;
   }
   .dropdown li {
     display: -webkit-box;
