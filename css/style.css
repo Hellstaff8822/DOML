@@ -389,10 +389,6 @@ button.slick-next {
   color: #f8f7f7;
 }
 
-.dropdown li:hover {
-  background-color: #565656;
-}
-
 .nav-item:hover .icon-arrow {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);

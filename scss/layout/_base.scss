@@ -202,9 +202,7 @@ button.slick-next {
   z-index: 1000;
   padding: 10px;
 }
-// .product, .explore, .pricing {
-//   margin-left: 15px;
-// }
+
 .dropdown {
   display: none;
   position: absolute;
@@ -227,9 +225,6 @@ button.slick-next {
   color: #f8f7f7;
 }
 
-.dropdown li:hover {
-  background-color: #565656;
-}
 
 .nav-item:hover .icon-arrow {
   transform: rotate(180deg);
