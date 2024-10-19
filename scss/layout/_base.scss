@@ -61,6 +61,12 @@ body.no-scroll {
   justify-content: center;
   gap: 24rem;
   align-self: start;
+  transition: border .2s ease-in;
+  &:hover{
+    background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(219deg, #61ff11, #ff11a0 48.25%, #ff2d2d) border-box;
+  border: 1rem solid transparent;
+  }
 }
 .title {
   font-family: var(--second-family);
@@ -156,20 +162,6 @@ button.slick-next {
   display: none;
 }
 
-.burger-menu {
-  cursor: pointer;
-}
-
-.burger-menu {
-  display: none;
-  @include desktop-small {
-    display: block;
-  }
-  .material-icons {
-    font-size: 32px;
-    color: #fff;
-  }
-}
 
 .nav__list,
 .search {
@@ -217,7 +209,12 @@ button.slick-next {
 }
 .dropdown li {
   padding: 10px 20px;
+  width: 100%;
+  &:hover{
+    background-color: #484747;
+  }
 }
+
 
 .dropdown li a {
   font-family: var(--third-family);

@@ -220,6 +220,12 @@ body.no-scroll {
   gap: 24rem;
   -ms-flex-item-align: start;
       align-self: start;
+  -webkit-transition: border 0.2s ease-in;
+  transition: border 0.2s ease-in;
+}
+.button:hover {
+  background: linear-gradient(#000, #000) padding-box, linear-gradient(219deg, #61ff11, #ff11a0 48.25%, #ff2d2d) border-box;
+  border: 1rem solid transparent;
 }
 
 .title {
@@ -314,23 +320,6 @@ button.slick-next {
   display: none;
 }
 
-.burger-menu {
-  cursor: pointer;
-}
-
-.burger-menu {
-  display: none;
-}
-@media (max-width: 1200px) {
-  .burger-menu {
-    display: block;
-  }
-}
-.burger-menu .material-icons {
-  font-size: 32px;
-  color: #fff;
-}
-
 .nav__list,
 .search {
   display: none;
@@ -381,6 +370,10 @@ button.slick-next {
 
 .dropdown li {
   padding: 10px 20px;
+  width: 100%;
+}
+.dropdown li:hover {
+  background-color: #484747;
 }
 
 .dropdown li a {
@@ -569,6 +562,9 @@ button.slick-next {
       -ms-flex-align: center;
           align-items: center;
 }
+.nav-item > a:hover {
+  color: #03fbfb;
+}
 
 .search {
   display: -webkit-box;
@@ -598,6 +594,9 @@ button.slick-next {
   width: 239rem;
   color: #a3a3a3;
   cursor: pointer;
+}
+.search__input input:focus {
+  outline: 1rem solid #18fff3;
 }
 .search__authorization {
   display: -webkit-box;
@@ -904,7 +903,7 @@ button.slick-next {
   transition: ease-in-out 0.2s;
 }
 .input-container input:focus {
-  border: 1rem solid #d8d8d8;
+  outline: 1rem solid #d8d8d8;
 }
 
 .footer {
@@ -1123,7 +1122,6 @@ button.slick-next {
   }
   .input-container input {
     width: 100%;
-    text-align: center;
   }
   .footer {
     -webkit-box-orient: vertical;
@@ -1161,11 +1159,22 @@ button.slick-next {
         -ms-flex-align: center;
             align-items: center;
   }
+  .dropdown li:hover {
+    background: none;
+  }
   .search__authorization {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     width: 239rem;
+  }
+  .text::after {
+    content: "";
+    display: block;
+    margin-inline: auto;
+    width: 80%;
+    height: 1rem;
+    background: linear-gradient(219deg, #00f0ff 0%, #5200ff 48.25%, #ff2df7 100%);
   }
 }/*# sourceMappingURL=style.css.map */

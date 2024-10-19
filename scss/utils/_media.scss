@@ -147,7 +147,6 @@
     gap: 40rem;
     input {
       width: 100%;
-      text-align: center;
     }
   }
   .footer {
@@ -173,11 +172,29 @@
     flex-direction: column;
     gap: 20rem;
     align-items: center;
+    &:hover {
+      background: none;
+    }
   }
 
   .search__authorization {
     flex-direction: column;
     width: 239rem;
+  }
+  .text {
+    &::after {
+      content: "";
+      display: block;
+      margin-inline: auto;
+      width: 80%;
+      height: 1rem;
+      background: linear-gradient(
+        219deg,
+        #00f0ff 0%,
+        #5200ff 48.25%,
+        #ff2df7 100%
+      );
+    }
   }
 }
 @include tablet-small {

@@ -36,6 +36,7 @@ $(document).ready(function () {
     ],
   });
 });
+
 function toggleMenu() {
   const navList = document.getElementById('navList');
   const iconMenu = document.querySelector('.icon-menu');
