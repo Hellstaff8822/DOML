@@ -157,16 +157,21 @@
   }
 
   .dropdown {
-    
     position: relative;
     top: 0;
-    left: 0;
+    left: -6rem;
+    background-color: rgba(33, 33, 33, );
+    box-shadow: none;
   }
   .dropdown li {
     display: flex;
     flex-direction: column;
     gap: 20rem;
     align-items: center;
+  }
+  .search__authorization{
+    flex-direction: column;
+    width: 239rem;
   }
 }
 @include tablet-small {

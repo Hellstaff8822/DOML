@@ -40,13 +40,16 @@ $(document).ready(function () {
 function toggleMenu() {
   const navList = document.getElementById('navList');
   const iconMenu = document.querySelector('.icon-menu');
+  const body = document.body;
 
-  navList.classList.toggle('active'); // Додає або забирає клас 'active'
+  navList.classList.toggle('active'); 
 
-  // Зміна іконки з 'menu' на 'close'
+
   if (navList.classList.contains('active')) {
     iconMenu.textContent = 'close';
+    body.classList.add("no-scroll");
   } else {
     iconMenu.textContent = 'menu';
+    body.classList.remove("no-scroll");
   }
 }

@@ -30,9 +30,10 @@ body {
   background: #000;
 }
 
-._hidden {
+body.no-scroll {
   overflow: hidden;
 }
+
 
 .container {
   max-width: 1467rem;
@@ -212,7 +213,7 @@ button.slick-next {
   background-color: rgb(33, 33, 33);
   padding: 10px 0;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  width: 150px;
+  width: 160rem;
   cursor: pointer;
 }
 .dropdown li {
