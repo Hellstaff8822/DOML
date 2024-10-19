@@ -17,7 +17,12 @@
     width: 80%;
     height: 100%;
     z-index: 1000;
-    background-color: rgb(10 10 10);
+    background: linear-gradient(
+      219deg,
+      #00f0ff 0%,
+      #5200ff 48.25%,
+      #ff2df7 100%
+    );
     flex-direction: column;
     justify-content: center;
     gap: 30rem;
