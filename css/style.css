@@ -499,6 +499,12 @@ button.slick-next {
       -ms-flex-pack: stretch;
           justify-content: stretch;
   gap: 100rem;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.nav-bar.hidden {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 
 .nav-list {

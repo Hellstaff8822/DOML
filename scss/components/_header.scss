@@ -18,7 +18,12 @@
   grid-template-columns: 1fr 1fr;
   justify-content: stretch;
   gap: 100rem;
+  transform: translateY(0);
+  &.hidden {
+    transform: translateY(-100%);
+  }
 }
+
 
 .nav-list {
   display: flex;
