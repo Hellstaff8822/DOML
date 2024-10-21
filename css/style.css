@@ -188,6 +188,33 @@ body.no-scroll {
   overflow: hidden;
 }
 
+.typed-out {
+  overflow: hidden;
+  border-right: 2.4rem solid orange;
+  white-space: nowrap;
+  -webkit-animation: typing 1s forwards;
+          animation: typing 1s forwards;
+  font-size: 25rem;
+  width: 0;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 .container {
   max-width: 1467rem;
   width: 100%;
@@ -657,18 +684,47 @@ button.slick-next {
   font-size: 72rem;
   margin-bottom: 50rem;
 }
+.welcome__title .typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2rem solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  -webkit-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+          animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
 .welcome__text {
   font-size: 25rem;
   max-width: 615px;
-}
-.welcome__text::after {
-  margin-top: 50rem;
-  margin-bottom: 50rem;
 }
 .welcome__image {
   margin-bottom: 50rem;
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 72%;
+  }
+}
+@-webkit-keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
 .company__text {
   font-family: var(--font-family);
   font-weight: 400;

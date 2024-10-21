@@ -4,6 +4,7 @@
   justify-content: center;
   margin-top: 93rem;
   gap: 97rem;
+
   &__info {
     display: flex;
     flex-direction: column;
@@ -12,18 +13,43 @@
   &__title {
     font-size: 72rem;
     margin-bottom: 50rem;
+
+    .typewriter {
+      display: inline-block;
+      overflow: hidden;
+      border-right: 2rem solid orange;
+      white-space: nowrap;
+      margin: 0 auto;
+      
+      animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    }
   }
 
   &__text {
     font-size: 25rem;
     max-width: 615px;
-    &::after {
-      margin-top: 50rem;
-      margin-bottom: 50rem;
-    }
   }
 
   &__image {
     margin-bottom: 50rem;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 72%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
   }
 }
