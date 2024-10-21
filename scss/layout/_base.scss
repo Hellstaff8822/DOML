@@ -34,19 +34,7 @@ body.no-scroll {
   overflow: hidden;
 }
 
-.typed-out{
-  overflow: hidden;
-  border-right: 2.4rem solid orange;
-  white-space: nowrap;
-  animation: 
-    typing 1s forwards;
-  font-size: 25rem;
-  width: 0;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
+
 .container {
   max-width: 1467rem;
   width: 100%;
@@ -113,6 +101,7 @@ body.no-scroll {
       #5200ff 48.25%,
       #ff2df7 100%
     );
+    margin: 23rem 0;
   }
 }
 .swiper-container {

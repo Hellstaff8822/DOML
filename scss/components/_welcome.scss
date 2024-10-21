@@ -14,15 +14,7 @@
     font-size: 72rem;
     margin-bottom: 50rem;
 
-    .typewriter {
-      display: inline-block;
-      overflow: hidden;
-      border-right: 2rem solid orange;
-      white-space: nowrap;
-      margin: 0 auto;
-      
-      animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-    }
+    
   }
 
   &__text {
@@ -34,7 +26,15 @@
     margin-bottom: 50rem;
   }
 }
-
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2rem solid #03fbfb;
+  white-space: nowrap;
+  margin: 0 auto;
+  
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
 @keyframes typing {
   from {
     width: 0;
@@ -50,6 +50,6 @@
     border-color: transparent;
   }
   50% {
-    border-color: orange;
+    border-color: #03fbfb;
   }
 }
