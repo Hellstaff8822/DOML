@@ -801,7 +801,7 @@ button.slick-next {
   position: relative;
   width: 100%;
   max-width: 263rem;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1;
   border-radius: 50rem;
   overflow: hidden;
 }
@@ -827,24 +827,35 @@ button.slick-next {
   mask-composite: exclude;
   max-height: 257rem;
 }
+.staff__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 16rem;
+  margin-top: 26rem;
+}
 .staff__text {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 20rem;
   line-height: 197%;
-  margin-bottom: 32rem;
 }
 .staff__name {
   font-weight: 700;
   font-size: 25rem;
   color: #fff;
-  margin-bottom: 17rem;
 }
 .staff__position {
   font-weight: 400;
   font-size: 19rem;
   color: #fff;
-  margin-bottom: 14rem;
 }
 
 .reach {

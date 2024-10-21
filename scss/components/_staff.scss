@@ -21,7 +21,7 @@
     position: relative;
     width: 100%;
     max-width: 263rem;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1;
     border-radius: 50rem;
     overflow: hidden;
 
@@ -53,27 +53,30 @@
       max-height: 257rem;
     }
   }
-
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16rem;
+    margin-top: 26rem;
+  }
   &__text {
     font-family: var(--font-family);
 
     font-weight: 600;
     font-size: 20rem;
     line-height: 197%;
-    margin-bottom: 32rem;
   }
 
   &__name {
     font-weight: 700;
     font-size: 25rem;
     color: #fff;
-    margin-bottom: 17rem;
   }
 
   &__position {
     font-weight: 400;
     font-size: 19rem;
     color: #fff;
-    margin-bottom: 14rem;
   }
 }
