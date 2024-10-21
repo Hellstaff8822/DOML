@@ -1134,6 +1134,11 @@ button.slick-next {
     padding: 50rem 20rem;
     min-height: 613px;
   }
+  .staff__info {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .staff__about {
     text-align: center;
     word-wrap: break-word;
